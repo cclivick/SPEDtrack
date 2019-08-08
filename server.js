@@ -1,6 +1,6 @@
 var express = require("express")
 var exphbs = require("express-handlebars");
-var routes = require("./controllers/burger_controller.js");
+require("./routes/htmlRoutes.js")(app);
 
 var app = express();
 
@@ -19,3 +19,5 @@ app.use(routes);
 app.listen(PORT, function() {
     console.log("Server listening on: http://localhost:" + PORT);
   });
+
+module.exports = app;
