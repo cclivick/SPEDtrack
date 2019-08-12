@@ -1,1 +1,1 @@
-var Student = require("./models/studentModel.js")
+var Student = require("../models/studentModel.js")

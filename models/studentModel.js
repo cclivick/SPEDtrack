@@ -44,20 +44,6 @@ var StudentSchema = new Schema ({
     },
     teacher9: {
         type: String
-    },
-    parent1FirstName: {
-        type: String,
-        required: "Please provide the first name of at least 1 parent or guardian."
-    },
-    parent1LastName: {
-        type: String,
-        required: "Please provide the last name of at least 1 parent or guardian."
-    },
-    parent2FirstName: {
-        type: String,
-    },
-    parent2LastName: {
-        type: String,
     }
 
 });

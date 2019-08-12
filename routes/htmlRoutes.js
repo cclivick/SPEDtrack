@@ -17,7 +17,11 @@ module.exports = function(app) {
         res.render("SPED-login");
     })
 
-    app.get("/educator-dashboard", function(req,res) {
-        res.render("educator-dashboard")
+    app.get("/SPED-dashboard", function(req,res) {
+        res.render("SPED-dashboard")
     });
+
+    app.get("/new-student", function(req,res) {
+        res.render("newStudent");
+    })
 };
