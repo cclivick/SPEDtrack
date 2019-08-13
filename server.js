@@ -1,12 +1,12 @@
 var express = require("express")
 var exphbs = require("express-handlebars");
-var bodyParser = require("body-parser");
+// var bodyParser = require("body-parser");
 var logger = require("morgan");
 var mongoose = require("mongoose");
 var app = express();
 
 require("./routes/htmlRoutes.js")(app);
-//require("./routes/apiRoutes.js")(app);
+require("./routes/apiRoutes.js")(app);
 
 
 var PORT = process.argv.PORT || 8080

@@ -14,15 +14,117 @@
 <br>
 
 <div class="container">
-    <div class="row">
-        <div class="col-md-4">
-            <div class="form-group">
-                <label for="newStuFirstName">Student's Name:</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <form action="/submitStudent">
+        <div class="row">
+                <h4>Student's Name:</h4>
             </div>
-        </div>
-        <div class="col-md-2"></div>
-        <div class="col-md-4"></div>
-        <div class="col-md-2"></div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                        <input type="text" class="form-control" id="newStuFirstName" aria-describedby="emailHelp" placeholder="First Name">
+                    </div>           
+                </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                        <input type="text" class="form-control" id="newStuLastName" aria-describedby="emailHelp" placeholder="Last Name">
+                    </div>
+                </div>               
+            </div>
+        <div class="row">
+                <h4>Student's Schedule:</h4>
+            </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="form-group">
+                        <select class="form-control" id="teacher1Select">
+                            <option value="" disabled selected>Block / Hour 1 Teacher (Required)</option> 
+
+                        </select>
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="form-group">
+                        <select class="form-control" id="teacher2Select">
+                            <option value="" disabled selected>Block / Hour 2 Teacher (Required)</option> 
+
+                        </select>
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="form-group">
+                        <select class="form-control" id="teacher3Select">
+                            <option value="" disabled selected>Block / Hour 3 Teacher (Required)</option> 
+
+                        </select>
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="form-group">
+                        <select class="form-control" id="teacher4Select">
+                            <option value="" disabled selected>Block / Hour 4 Teacher (Required)</option> 
+
+                        </select>
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="form-group">
+                        <select class="form-control" id="teacher5Select">
+                            <option value="" disabled selected>Block / Hour 5 Teacher (Optional)</option> 
+
+                        </select>
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="form-group">
+                        <select class="form-control" id="teacher6Select">
+                            <option value="" disabled selected>Block / Hour 6 Teacher (Optional)</option> 
+
+                        </select>
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="form-group">
+                        <select class="form-control" id="teacher7Select">
+                            <option value="" disabled selected>Block / Hour 7 Teacher (Optional)</option> 
+
+                        </select>
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="form-group">
+                        <select class="form-control" id="teacher8Select">
+                            <option value="" disabled selected>Block / Hour 8 Teacher (Optional)</option> 
+
+                        </select>
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="form-group">
+                        <select class="form-control" id="teacher9Select">
+                            <option value="" disabled selected>Block / Hour 9 Teacher (Optional)</option> 
+
+                        </select>
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
     </div>
-</div>

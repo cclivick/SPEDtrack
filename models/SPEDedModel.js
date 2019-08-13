@@ -14,20 +14,15 @@ var StudentSchema = new Schema ({
         trim: true,
         required: "Please enter your last name."
     },
-    siteName: {
-        type: String,
-        trim: true,
-        required: "Please enter your site name."
-    },
     siteDistrict: {
         type: String,
         trim: true,
         required: "Please select your district."
     },
-    siteCity: {
+    siteName: {
         type: String,
         trim: true,
-        required: "Please select the city of your district."
+        required: "Please enter your site name."
     }
 })
 
