@@ -4,31 +4,26 @@ var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 
 var StudentSchema = new Schema ({
-    firstName: {
+    name: {
         type: String,
         trim: true,
-        required: "Please enter student's first name."
-    },
-    lastName: {
-        type: String,
-        trim: true,
-        required: "Please enter student's last name."
+        required: "Please enter student's name."
     },
     teacher1: {
         type: String,
-        required: "You must select student's 1st hour / block teacher."
+        //required: "You must select student's 1st hour / block teacher."
     },
     teacher2: {
         type: String,
-        required: "You must select student's 2nd hour / block teacher."
+        //required: "You must select student's 2nd hour / block teacher."
     },
     teacher3: {
         type: String,
-        required: "You must select student's 3rd hour / block teacher."
+        //required: "You must select student's 3rd hour / block teacher."
     },
     teacher4: {
         type: String,
-        required: "You must select student's 4th hour / block teacher."
+        //required: "You must select student's 4th hour / block teacher."
     },
     teacher5: {
         type: String
